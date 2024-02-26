@@ -1712,6 +1712,11 @@
 	{
 		"icao": "ENZV",
 		"sids": {
+			"ENZV": [
+				{
+					"direction": "ANY"
+				}
+			],
 			"ODINU": [
 				{
 					"destinations": [
@@ -1790,6 +1795,16 @@
 				}
 			],
 			"GEDLU": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"INLUP": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"ETROM": [
 				{
 					"direction": "EVEN"
 				}

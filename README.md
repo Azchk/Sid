@@ -1,6 +1,7 @@
 # This is a Norwegian SIDs setup for EuroSscope plugin VFPC.
 # Forked from https://github.com/beregor/Sid to make improvements and fix bugs:
 - Major overhaul of all SIDs:
+- Sorted airports alphabetically
 - Sorted SIDs with omnidirectional and non-RNAV departures first, then directions clockwise from north, heli departures last.
 - Added ALL airports with SIDs
 - Updated all mandatory routes and restrictions according to Eurocontrol RAD. Keep in mind they are not all mandatory on Vatsim.
