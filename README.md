@@ -1,5 +1,5 @@
 # This is an Norwegian SIDs setup for EuroSscope plugin VFPC.
-# Forked from _ to make improvements and fix bugs
+# Forked from https://github.com/beregor/Sid to make improvements and fix bugs
 # Main plugin can be downloaded from https://github.com/hpeter2/VFPC
 # Installation:
 # Download the file and replace the sid.json file inside you plugins folder within EuroScope.
