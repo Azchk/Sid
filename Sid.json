@@ -1,435 +1,18 @@
 [
 	{
-		"icao": "ENBR",
+		"icao": "ENAL",
 		"sids": {
-			"OMNI": [
-				{
-					"direction": "ANY"
-				}
-			],
-			"BEGOD": [
-				{
-					"direction": "ODD",
-					"min_fl": 20,
-					"max_fl": 175,
-					"destinations": [
-						"ENZV",
-						"ENHD"
-					]
-				}
-			],
-			"GOKAB": [
-				{
-					"direction": "ODD"
-				}
-			],
-			"EPOTU": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"REKLI": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"OLDAS": [
-				{
-					"destinations": [
-						"BI"
-					],
-					"direction": "EVEN"
-				},
-				{
-					"destinations":	[
-						"ENFL"
-					],
-					"direction":"ANY"
-				},
-				{
-					"direction": "ODD"
-				}
-			],
-			"INTUM": [
-				{
-					"direction": "ODD"
-				}
-			],
-			"TINIG": [
-				{
-					"direction": "ODD"
-				}
-			],
-			"TUXIL": [
-				{
-					"airways": [
-						"ATNAK",
-						"LAPOT",
-						"ALOTI",
-						"KARLI",
-						"UNBUD"
-					],
-					"direction": "EVEN"
-				},
-				{
-					"airways": [
-						"BIVKI",
-						"MITSI",
-						"TUKMU",
-						"RIVEX",
-						"PEVEB",
-						"AAL",
-						"ELSOB"
-					],
-					"direction": "ODD"
-				},
-				{
-					"direction": "ANY"
-				}
-			],
-			"ADADI": [
-				{
-					"min_fl": 20
-					
-				}
-			]
-		}
-	},
-	{
-		"icao": "ENVA",
-		"sids": {
-			"OMNI": [
-				{
-					"direction": "ANY"
-				}
-			],
-			"EVNEN": [
+			"ENAL": [
 				{
 					"destinations": [
 						"ENGM"
 					],
-					"direction": "EVEN"
-				},
-				{
-					"direction": "ODD"
-				}
-			],
-			"GOGOX": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"NIGEX": [
-				{
-					"direction": "ODD"
-				}
-			],
-			"OSMUM": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"SOLKA": [
-				{
-					"direction": "ODD"
-				}
-			],
-			"UTUNA": [
-				{
-				"destinations": [
-					"ENGM"
-				],
-				"direction": "EVEN"
-				},
-				{
-					"direction": "EVEN"
-				}
-			]
-		}
-	},
-	{
-		"icao": "ENGM",
-		"sids": {
-			"T235A40": [
-				{
-					"direction": "ANY",
-					"engine": [
-						"T",
-						"P"
-					]
-				}
-			],
-			"T235A70": [
-				{
-					"direction": "ANY",
-					"engine":"J"
-				}
-			],
-			"T290A40": [
-				{
-					"direction": "ANY",
-					"engine": [
-						"T",
-						"P"
-					]
-				}
-			],
-			"T100A40": [
-				{
-					"direction": "ANY",
-					"engine": [
-						"T",
-						"P"
-					]
-				}
-			],
-			"T185A70": [
-				{
-					"direction": "ANY"
-				}
-			],
-			"VEMIN": [
-				{
-					"engine": [
-						"T",
-						"P"
-					],
+					"direction": "ODD",
 					"airways": [
-						"ATLAP",
-						"EVTOG",
-						"VIPPA"
-					],
-					"direction": "EVEN"
-				},
-				{
-					"engine": [
-						"T",
-						"P"
-					],
-					"airways": [
-						"RIBBE"
-					],
-					"direction": "ODD"
-				},
-				{
-					"destinations": [
-						"ENVA"
-					],
-					"direction": "ODD"
-				}
-			],
-			"VIBUK": [
-				{
-					"engine": [
-						"T",
-						"P"
-					],
-					"airways": [
-						"MASEV",
-						"OKSAT",
-						"RIBBE"
-					],
-					"direction": "ODD"
-				},
-				{
-					"engine": [
-						"T",
-						"P"
-					],
-					"destinations": [
-						"ENVA"
-					],
-					"direction": "ODD"
-				}
-			],				
-			"ATLAP": [
-				{
-					"suffix": [
-						"7D",
-						"5A"
-					],
-					"engine":"J",
-					"direction": "EVEN"
-				},
-				{
-					"suffix": [
-						"9B",
-						"3C"
-					],
-					"direction":"EVEN"
-				}
-			],
-			"EVTOG": [
-				{
-					"suffix":[
-						"5A",
-						"7D"
-					],
-					"engine":"J",
-					"direction": "EVEN"
-				},
-				{
-					"suffix": [
-						"3C",
-						"9B"
-					],
-					"direction":"EVEN"
-				}
-			],
-			"VIPPA": [
-				{
-					"suffix": [
-						"1A",
-						"6D"
-					],
-					"engine": "J",
-					"airways": [
-						"GITER",
-						"NIKDA",
-						"SONAL"
-					],
-					"direction": "ODD" 
-				},
-				{
-					"suffix": [
-						"1A",
-						"6D"
-					],
-					"engine":"J",
-					"direction": "EVEN"
-				},
-				{
-					"suffix":"1C",
-					"airways":[
-						"GITER",
-						"NIKDA",
-						"SONAL"
-					],
-					"direction": "ODD" 
-				},
-				{
-					"suffix":"1C",
-					"direction": "EVEN"
-				}
-			],
-			"RIBBE": [
-				{
-					"suffix":[
-						"1C",
-						"6D"
-					],
-					"engine":[
-						"J"
-					],
-					"direction": "ODD"
-				},
-				{
-					"suffix":[
-						"1A",
-						"6B"
-					],
-					"direction":"ODD"
-				}
-			],
-			"MASEV": [
-				{
-					"suffix":[
-						"5C"
-					],
-					"engine":"J",
-					"direction": "ODD"
-				},
-				{
-					"suffix": [
-						"4A",
-						"6B",
-						"6D"
-					],
-					"direction":"ODD"
-				}
-			],
-			"OKSAT": [
-				{
-					"suffix":[
-						"1C",
-						"2C"
-					],
-					"engine":"J",
-					"direction": "ODD"
-				},
-				{
-					"suffix":[
-						"4A",
-						"6B",
-						"6D"
-					],
-					"direction":"ODD"
-				}
-			]
-		}
-	},
-	{
-		"icao": "ENZV",
-		"sids": {
-			"OMNI": [
-				{
-					"direction": "ANY"
-				}
-			],
-			"ALUVA": [
-				{
-					"direction": "EVEN",
-					"min_fl": 20,
-					"max_fl": 175,
-					"destinations": [
-						"ENBR"
+						"OGDIT DCT EVNAN DCT ADOPI",
+						"BAMVA DCT BELGU"
 					]
 				},
-				{
-					"direction": "EVEN"
-				}	
-			],
-			"LAPOT": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"RUMOG": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"ODINU": [
-				{
-					"direction": "ODD"
-				}
-			],
-			"UPLEV": [
-				{
-					"direction": "ODD"
-				}
-			],
-			"PEVEB": [
-				{
-					"direction": "ODD"
-				}
-			],
-			"GEDLU": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"BIVKI": [
-				{
-					"direction": "ODD"
-				}
-			]
-		}
-	},
-	{
-		"icao": "ENAL",
-		"sids": {
-			"OMNI": [
 				{
 					"direction": "ANY"
 				}
@@ -440,6 +23,35 @@
 				}
 			],
 			"GIGIR": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "ODD",
+					"airways": [
+						"DCT KEMIV DCT BELGU",
+						"DCT URARU DCT ILFUR DCT BELGU",
+						"DCT KUPAX DCT URARU DCT ILFUR DCT BELGU"
+					]
+				},
+				{
+					"destinations": [
+						"EVRA"
+					],
+					"direction": "ODD",
+					"min_fl": 285
+				},
+				{
+					"destinations": [
+						"EVRA"
+					],
+					"direction": "ODD",
+					"max_fl": 285,
+					"airways": [
+						"SUVAR M996 ELTOK P607 TEB N623 NEKET",
+						"SUVAR M996 ELTOK P607 TEB N623 NEKLA P156 RASEL"
+					]
+				},
 				{
 					"direction": "ODD"
 				}
@@ -452,54 +64,29 @@
 		}
 	},
 	{
-		"icao": "ENTC",
+		"icao": "ENAT",
 		"sids": {
-			"OMNI": [
+			"ELSEV": [
 				{
 					"direction": "ANY"
 				}
 			],
-			"AMIMO": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"BDF": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"ERPUG": [
+			"KOMIG": [
 				{
 					"direction": "ODD"
 				}
 			],
-			"EVANI": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"GILGU": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"LITPI": [
+			"PEMEP": [
 				{
 					"direction": "ODD"
 				}
 			],
-			"LOMVI": [
+			"LUVED": [
 				{
 					"direction": "EVEN"
 				}
 			],
-			"MOKAX": [
-				{
-					"direction": "ODD"
-				}
-			],
-			"ROSKO": [
+			"NATED": [
 				{
 					"direction": "EVEN"
 				}
@@ -509,13 +96,26 @@
 	{
 		"icao": "ENBO",
 		"sids": {
-			"OMNI": [
+			"ENBO": [
 				{
 					"direction": "ANY"
 				}
 			],
+			"SENEQ": [
+				{
+					"direction": "EVEN"
+				}
+			],
 			"ABTAM": [
 				{
+					"destinations": [
+						"ENRS",
+						"ENAN",
+						"ENLK",
+						"ENSK",
+						"ENSH",
+						"ENBO"
+					],
 					"direction": "EVEN"
 				}
 			],
@@ -536,6 +136,13 @@
 			],
 			"IBVIS": [
 				{
+					"destinations": [
+						"ENRS",
+						"ENAN",
+						"ENLK",
+						"ENSK",
+						"ENSH"
+					],
 					"direction": "EVEN"
 				}
 			],
@@ -557,36 +164,209 @@
 		}
 	},
 	{
+		"icao": "ENBR",
+		"sids": {
+			"OLDAS": [
+				{
+					"destinations": [
+						"ENFL"
+					],
+					"direction": "EVEN"
+				},
+				{
+					"direction": "ODD"
+				}
+			],
+			"INTUM": [
+				{
+					"destinations": [
+						"ENVA"
+					],
+					"direction": "ODD",
+					"airways": [
+						"INTUM DCT NELSU",
+						"INTUM DCT MIVSO"
+					]
+				},
+				{
+					"direction": "ODD"
+				}
+			],
+			"GOKAB": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "ODD",
+					"airways": [
+						"L24 ADOPI",
+						"L24 ULVAN L24 ADOPI",
+						"DCT ULVAN DCT ADOPI"
+					]
+				},
+				{
+					"destinations": [
+						"EVRA"
+					],
+					"direction": "ODD",
+					"min_fl": 285
+				},
+				{
+					"destinations": [
+						"EVRA"
+					],
+					"direction": "ODD",
+					"max_fl": 285,
+					"airways": [
+						"L24 MASEV Z183 ELTOK P607 TEB N623 NEKET",
+						"L24 MASEV Z183 ELTOK P607 TEB N623 NEKLA P156 RASEL, L24 MASEV Z183 LEGPO L199 RASEL"
+					]
+				},
+				{
+					"direction": "ODD"
+				}
+			],
+			"TINIG": [
+				{
+					"destinations": [
+						"EVRA"
+					],
+					"direction": "ODD",
+					"min_fl": 285
+				},
+				{
+					"destinations": [
+						"EVRA"
+					],
+					"direction": "ODD",
+					"max_fl": 285,
+					"airways": [
+						"VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKET",
+						"VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKLA P156 RASEL"
+					]
+				},
+				{
+					"direction": "ODD"
+				}
+			],
+			"BEGOD": [
+				{
+					"destinations": [
+						"ENZV"
+					],
+					"direction": "ODD",
+					"max_fl": 175
+				},
+				{
+					"destinations": [
+						"ENHD",
+						"ENHX",
+						"ENSX"
+					],
+					"direction": "ODD"
+				}
+			],
+			"TUXIL": [
+				{
+					"destinations": [
+						"ENCN"
+					],
+					"direction": "ODD",
+					"airways": [
+						"DCT PEVEB"
+					]
+				},
+				{
+					"direction": "EVEN",
+					"airways": [
+						"DCT ZOL T400 ALOTI",
+						"DCT ZOL P5 NIVUN",
+						"DCT ZOL DCT ATNAK",
+						"DCT ZOL DCT KARLI"
+					]
+				},
+				{
+					"direction": "ODD",
+					"airways": [
+						"DCT ZOL DCT GREFI",
+						"DCT ZOL AMADA",
+						"DCT ZOL DCT MITSI",
+						"DCT ZOL DCT BIVKI",
+						"DCT ZOL DCT RIVEX",
+						"DCT ZOL DCT PEVEB",
+						"DCT ZOL DCT ATTUS"
+					]
+				},
+				{
+					"destinations": [
+						"ED",
+						"EK",
+						"LD",
+						"LI",
+						"LJ",
+						"LK",
+						"LS",
+						"LQ"
+					],
+					"direction": "ODD"
+				},
+				{
+					"direction": "ANY",
+					"airways": [
+						"DCT ZOL"
+					]
+				}
+			],
+			"EPOTU": [
+				{
+					"destinations": [
+						"EG"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"DCT PEPIN",
+						"DCT ORVIK",
+						"Z107 BEREP",
+						"DCT RIGVU",
+						"DCT KLONN"
+					]
+				}
+			],
+			"REKLI": [
+				{
+					"destinations": [
+						"BI"
+					],
+					"direction": "EVEN"
+				},
+				{
+					"direction": "EVEN"
+				}
+			],
+			"ADADI": [
+				{
+					"direction": "EVEN",
+					"min_fl": 20
+				}
+			]
+		}
+	},
+	{
 		"icao": "ENCN",
 		"sids": {
-			"OMNI": [
+			"ENCN": [
 				{
 					"direction": "ANY"
+				}
+			],
+			"TIPSO": [
+				{
+					"direction": "ODD"
 				}
 			],
 			"VAVET": [
 				{
 					"direction": "ODD"
-				}
-			],
-			"TIPSO": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"BEDIK": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"RIVEX": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"LANTI": [
-				{
-					"direction": "EVEN"
 				}
 			],
 			"AMSEV": [
@@ -599,7 +379,8 @@
 					"destinations": [
 						"EK",
 						"EDDH",
-						"EDDP"
+						"EDDP",
+						"LI"
 					],
 					"direction": "ODD"
 				},
@@ -607,9 +388,593 @@
 					"destinations": [
 						"EDF",
 						"EDDF",
-						"EDG"
+						"EDG",
+						"EH",
+						"LF",
+						"LI"
 					],
 					"direction": "EVEN"
+				},
+				{
+					"direction": "ANY"
+				}
+			],
+			"LANTI": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"RIVEX": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"BEDIK": [
+				{
+					"direction": "EVEN"
+				}
+			]
+		}
+	},
+	{
+		"icao": "ENEV",
+		"sids": {
+			"PIKOX": [
+				{
+					"direction": "ANY"
+				}
+			],
+			"BARVI": [
+				{
+					"direction": "ODD"
+				}
+			],
+			"LAVNA": [
+				{
+					"direction": "ODD"
+				}
+			],
+			"AMIMO": [
+				{
+					"direction": "ANY"
+				}
+			],
+			"GEPTU": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"PIKOX": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"EVANI": [
+				{
+					"direction": "EVEN"
+				}
+			]
+		}
+	},
+	{
+		"icao": "ENGM",
+		"sids": {
+			"T005A70": [
+				{
+					"direction": "ANY",
+					"engine": [
+						"J"
+					]
+				}
+			],
+			"T080A70": [
+				{
+					"direction": "ANY",
+					"engine": [
+						"J"
+					]
+				}
+			],
+			"T080A40": [
+				{
+					"direction": "ANY",
+					"engine": [
+						"T",
+						"P"
+					]
+				}
+			],
+			"T185A70": [
+				{
+					"direction": "ANY",
+					"engine": [
+						"J"
+					]
+				}
+			],
+			"T235A70": [
+				{
+					"direction": "ANY",
+					"engine": [
+						"J"
+					]
+				}
+			],
+			"T290A40": [
+				{
+					"direction": "EVEN",
+					"engine": [
+						"T",
+						"P"
+					],
+					"airways": [
+						"ATLAP",
+						"EVTOG"
+					]
+				},
+				{
+					"direction": "ODD",
+					"engine": [
+						"T",
+						"P"
+					],
+					"airways": [
+						"OKSAT"
+					]
+				},
+				{
+					"direction": "ANY",
+					"engine": [
+						"T",
+						"P"
+					]
+				}
+			],
+			"T100A40": [
+				{
+					"direction": "EVEN",
+					"engine": [
+						"T",
+						"P"
+					],
+					"airways": [
+						"ATLAP",
+						"EVTOG"
+					]
+				},
+				{
+					"direction": "ODD",
+					"engine": [
+						"T",
+						"P"
+					],
+					"airways": [
+						"OKSAT"
+					]
+				},
+				{
+					"direction": "ANY",
+					"engine": [
+						"T",
+						"P"
+					]
+				}
+			],
+			"RWYTA40": [
+				{
+					"direction": "ODD",
+					"engine": [
+						"T",
+						"P"
+					],
+					"airways": [
+						"MASEV",
+						"RIBBE"
+					]
+				},
+				{
+					"direction": "ANY",
+					"engine": [
+						"T",
+						"P"
+					]
+				}
+			],
+			"T235A40": [
+				{
+					"direction": "ODD",
+					"engine": [
+						"T",
+						"P"
+					],
+					"airways": [
+						"MASEV",
+						"RIBBE"
+					]
+				},
+				{
+					"direction": "ANY",
+					"engine": [
+						"T",
+						"P"
+					]
+				}
+			],
+			"RIBBE": [
+				{
+					"destinations": [
+						"ENVA"
+					],
+					"direction": "ODD",
+					"airways": [
+						"Z125 GIGNI Z320 VEVOD",
+						"DCT GIGNI DCT VEVOD",
+						"DCT AMOXA DCT VEVOD"
+					]
+				},
+				{
+					"destinations": [
+						"ENBO"
+					],
+					"direction": "ODD",
+					"airways": [
+						"ODNOS",
+						"BNN",
+						"EMDAM"
+					]
+				},
+				{
+					"destinations": [
+						"ENRO, ENOL, ENSB"
+					],
+					"direction": "ODD"
+				},
+				{
+					"suffix": [
+						"1C",
+						"6D"
+					],
+					"engine": [
+						"J"
+					],
+					"direction": "ODD",
+					"airways": [
+						"Z125 SOMUB",
+						"Z125 GIGNI Z125 SOMUB",
+						"DCT EGAGO",
+						"DCT AMOXA DCT VEVOD DCT SOMUB"
+					]
+				},
+				{
+					"suffix": [
+						"1A",
+						"6B"
+					],
+					"direction": "ODD",
+					"airways": [
+						"Z125 SOMUB",
+						"Z125 GIGNI Z125 SOMUB",
+						"DCT EGAGO",
+						"DCT AMOXA DCT VEVOD DCT SOMUB"
+					]
+				}
+			],
+			"MASEV": [
+				{
+					"suffix": [
+						"5C"
+					],
+					"engine": [
+						"J"
+					],
+					"direction": "ODD"
+				},
+				{
+					"suffix": [
+						"4A",
+						"6B",
+						"6D"
+					],
+					"direction": "ODD"
+				}
+			],
+			"OKSAT": [
+				{
+					"suffix": [
+						"1C",
+						"2C"
+					],
+					"engine": [
+						"J"
+					],
+					"direction": "ODD",
+					"max_fl": 310
+				},
+				{
+					"suffix": [
+						"4A",
+						"6B",
+						"6D"
+					],
+					"direction": "ODD",
+					"max_fl": 310
+				}
+			],
+			"VIPPA": [
+				{
+					"destinations": [
+						"ENRY",
+						"ENTO"
+					],
+					"direction": "ANY",
+					"airways": [
+						"DCT TOR DCT"
+					]
+				},
+				{
+					"suffix": [
+						"1A",
+						"6D"
+					],
+					"engine": [
+						"J"
+					],
+					"airways": [
+						"GITER",
+						"NIKDA",
+						"SONAL"
+					],
+					"direction": "ODD"
+				},
+				{
+					"suffix": [
+						"1A",
+						"6D"
+					],
+					"engine": [
+						"J"
+					],
+					"direction": "EVEN"
+				},
+				{
+					"suffix": [
+						"1C"
+					],
+					"airways": [
+						"GITER",
+						"NIKDA",
+						"SONAL"
+					],
+					"direction": "ODD"
+				},
+				{
+					"suffix": [
+						"1C"
+					],
+					"direction": "EVEN"
+				}
+			],
+			"ATLAP": [
+				{
+					"destinations": [
+						"ENSG"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"DCT BITKU DCT INTUM"
+					]
+				},
+				{
+					"destinations": [
+						"ENFL",
+						"ENBL"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"DCT BITKU DCT OLDAS"
+					]
+				},
+				{
+					"destinations": [
+						"ENSD"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"DCT BITKU DCT",
+						"DCT BITKU DCT TIMIX DCT EVNAN"
+					]
+				},
+				{
+					"destinations": [
+						"ENHD"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"P600 IPMOD Z280 ULVOS",
+						"DCT IPMOD DCT ULVOS"
+					]
+				},
+				{
+					"destinations": [
+						"ENZV"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"P600 ROPNO",
+						"P600 IPMOD P600 ROPNO",
+						"DCT IPMOD DCT ROPNO"
+					]
+				},
+				{
+					"destinations": [
+						"ENBR"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"N623 PESUR",
+						"N623 AGEKU N623 PESUR",
+						"DCT AGEKU DCT PESUR"
+					]
+				},
+				{
+					"destinations": [
+						"ENSO"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"Z284 REVTA",
+						"Z284 BOBGA Z284 REVTA",
+						"DCT BOBGA DCT REVTA"
+					]
+				},
+				{
+					"suffix": [
+						"7D",
+						"5A"
+					],
+					"engine": [
+						"J"
+					],
+					"direction": "EVEN"
+				},
+				{
+					"suffix": [
+						"9B",
+						"3C"
+					],
+					"direction": "EVEN"
+				}
+			],
+			"EVTOG": [
+				{
+					"destinations": [
+						"ENKB",
+						"ENML"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"P615 VEPUL",
+						"P615 PIGED P615 VEPUL",
+						"DCT PIGED DCT VEPUL",
+						"DCT UTRUF DCT KEMIV DCT VEPUL",
+						"DCT UTRUF DCT UFGUG DCT",
+						"L997 OBITI",
+						"DCT SELCO DCT BASTU",
+						"DCT VAMTO DCT TESLU DCT VEPUL"
+					]
+				},
+				{
+					"destinations": [
+						"ENAL"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"DCT UTRUF DCT UFGUG DCT",
+						"L997 OBITI",
+						"DCT SELCO DCT BASTU DCT TUMIM",
+						"DCT VAMTO DCT TESLU DCT VEPUL"
+					]
+				},
+				{
+					"destinations": [
+						"ENOV"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"DCT UTRUF DCT UFGUG DCT",
+						"L997 OBITI",
+						"DCT SELCO DCT BASTU",
+						"DCT VAMTO DCT TESLU DCT VEPUL DCT EVLED DCT"
+					]
+				},
+				{
+					"suffix": [
+						"5A",
+						"7D"
+					],
+					"engine": [
+						"J"
+					],
+					"direction": "EVEN"
+				},
+				{
+					"suffix": [
+						"3C",
+						"9B"
+					],
+					"direction": "EVEN"
+				}
+			]
+		}
+	},
+	{
+		"icao": "ENHD",
+		"sids": {
+			"BIVKI": [
+				{
+					"direction": "ODD"
+				}
+			],
+			"GENVU": [
+				{
+					"destinations": "ENBR",
+					"direction": "EVEN",
+					"max_fl": 175
+				},
+				{
+					"direction": "ODD",
+					"airways": [
+						"OLDAS"
+					]
+				}
+			],
+			"ODINU": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "ODD",
+					"airways": [
+						"T70 ADOPI",
+						"T70 BOBGA T70 ADOPI",
+						"DCT BOBGA DCT ADOPI"
+					]
+				},
+				{
+					"destinations": [
+						"ENVA"
+					],
+					"direction": "ODD"
+				},
+				{
+					"direction": "ODD"
+				}
+			],
+			"PEVEB": [
+				{
+					"direction": "ODD"
+				}
+			],
+			"RUMOG": [
+				{
+					"direction": "EVEN",
+					"airways": [
+						"ATNAK",
+						"LAPOT",
+						"ALOTI"
+					]
+				},
+				{
+					"direction": "ODD",
+					"airways": [
+						"BIVKI",
+						"MITSI",
+						"TUKMU",
+						"RIVEX",
+						"PEVEB",
+						"AAL",
+						"ELSOB"
+					]
 				},
 				{
 					"direction": "ANY"
@@ -618,34 +983,105 @@
 		}
 	},
 	{
-		"icao": "ENRY",
+		"icao": "ENKB",
 		"sids": {
-			"OMNI": [
+			"ENKB": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "ODD",
+					"airways": [
+						"OGDIT DCT EVNAN DCT ADOPI"
+					]
+				},
 				{
 					"direction": "ANY"
 				}
 			],
-			"BAKIV": [
+			"ABGOR": [
 				{
 					"direction": "EVEN"
 				}
 			],
-			"TITUX": [
+			"NELSU": [
+				{
+					"direction": "ODD"
+				}
+			],
+			"BAMVA": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "ODD",
+					"airways": [
+						"DCT OKEXA DCT BELGU",
+						"DCT PIGED DCT BELGU",
+						"DCT URARU DCT ILFUR DCT BELGU"
+					]
+				},
+				{
+					"direction": "ODD"
+				}
+			],
+			"GIGIR": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "ODD",
+					"airways": [
+						"DCT KUPAX DCT URARU DCT ILFUR DCT BELGU"
+					]
+				},
 				{
 					"direction": "EVEN"
 				}
 			],
-			"LUTOT": [
+			"TUTOP": [
+				{
+					"destinations": [
+						"ENBR"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"Z287 NIDGI",
+						"DCT NIDGI"
+					]
+				},
 				{
 					"direction": "EVEN"
 				}
-			],
-			"ELKOP": [
+			]
+		}
+	},
+	{
+		"icao": "ENRY",
+		"sids": {
+			"ENRY": [
 				{
-					"direction": "EVEN"
+					"direction": "ANY"
 				}
 			],
-			"MOGLU": [
+			"ELVOM": [
+				{
+					"destinations": [
+						"ENVA"
+					],
+					"direction": "ODD",
+					"airways": [
+						"M125 LILBA",
+						"M125 LULIL M125 LILBA",
+						"DCT LULIL DCT LILBA",
+						"Z320 VEVOD",
+						"Z320 GIGNI Z320 VEVOD",
+						"DCT GIGNI DCT VEVOD",
+						"M125 LILBA DCT AMOXA DCT VEVOD",
+						"M125 LULIL M125 LILBA DCT AMOXA DCT VEVOD",
+						"DCT LULIL DCT LILBA DCT AMOXA DCT VEVOD"
+					]
+				},
 				{
 					"direction": "ODD"
 				}
@@ -655,9 +1091,116 @@
 					"direction": "ODD"
 				}
 			],
-			"ELVOM": [
+			"MOGLU": [
 				{
 					"direction": "ODD"
+				}
+			],
+			"ELKOP": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"BAKIV": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"BAKIV DCT RIPAM"
+					]
+				},
+				{
+					"direction": "EVEN"
+				}
+			],
+			"LUTOT": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"TITUX": [
+				{
+					"direction": "EVEN"
+				}
+			]
+		}
+	},
+	{
+		"icao": "ENTC",
+		"sids": {
+			"ENTC": [
+				{
+					"direction": "ANY"
+				}
+			],
+			"BDF": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"LOMVI": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"LITPI": [
+				{
+					"direction": "ODD"
+				}
+			],
+			"ERPUG": [
+				{
+					"direction": "ODD"
+				}
+			],
+			"MOKAX": [
+				{
+					"destinations": [
+						"ES",
+						"ENDU"
+					],
+					"direction": "ODD"
+				},
+				{
+					"destinations": [
+						"UL",
+						"EF",
+						"EE",
+						"EV",
+						"EY",
+						"UM",
+						"EP"
+					],
+					"direction": "ODD"
+				}
+			],
+			"AMIMO": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"EVANI": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"ROSKO": [
+				{
+					"destinations": [
+						"ENDU",
+						"ENEV"
+					],
+					"direction": "EVEN"
+				}
+			],
+			"GILGU": [
+				{
+					"destinations": [
+						"ENAN"
+					],
+					"direction": "EVEN"
 				}
 			]
 		}
@@ -665,12 +1208,16 @@
 	{
 		"icao": "ENTO",
 		"sids": {
-			"OMNI": [
-				{
-					"direction": "ANY"
-				}
-			],
 			"BAKIV": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "EVEN",
+					"airways": [
+						"BAKIV DCT RIPAM"
+					]
+				},
 				{
 					"direction": "EVEN"
 				}
@@ -702,6 +1249,23 @@
 			],
 			"ELVOM": [
 				{
+					"destinations": [
+						"ENVA"
+					],
+					"direction": "ODD",
+					"airways": [
+						"M125 LILBA",
+						"M125 LULIL M125 LILBA",
+						"DCT LULIL DCT LILBA",
+						"Z320 VEVOD",
+						"Z320 GIGNI Z320 VEVOD",
+						"DCT GIGNI DCT VEVOD",
+						"M125 LILBA DCT AMOXA DCT VEVOD",
+						"M125 LULIL M125 LILBA DCT AMOXA DCT VEVOD",
+						"DCT LULIL DCT LILBA DCT AMOXA DCT VEVOD"
+					]
+				},
+				{
 					"airways": [
 						"EVTOG"
 					],
@@ -713,31 +1277,160 @@
 			]
 		}
 	},
-	{	
-		"icao": "ENHD",
+	{
+		"icao": "ENVA",
 		"sids": {
-			"OMNI": [
+			"NIGEX": [
 				{
-					"direction": "ANY"
-				}
-			],
-			"BIVKI": [
+					"destinations": [
+						"ENBO"
+					],
+					"airways": [
+						"ODNOS",
+						"BNN",
+						"EMDAM"
+					],
+					"direction": "ODD"
+				},
 				{
 					"direction": "ODD"
 				}
 			],
-			"GENVU": [
+			"SOLKA": [
 				{
-					"airways": [
-						"OLDAS"
+					"direction": "ODD"
+				}
+			],
+			"EVNEN": [
+				{
+					"destinations": [
+						"ENGM"
 					],
-					"direction":"ODD"
+					"direction": "EVEN",
+					"airways": [
+						"L996 INREX"
+					]
+				},
+				{
+					"destinations": [
+						"ENRO"
+					],
+					"direction": "ODD"
+				},
+				{
+					"direction": "ODD",
+					"airways": [
+						"L996"
+					]
+				}
+			],
+			"UTUNA": [
+				{
+					"destinations": [
+						"ENTO",
+						"ENRY"
+					],
+					"airways": [
+						"M609 BELGU DCT XUKDI P609 BAMIX",
+						"M609 TUTBI M609 BELGU DCT XUKDI P609 BAMIX",
+						"DCT TUTBI DCT BELGU DCT XUKDI DCT BAMIX"
+					],
+					"direction": "EVEN"
+				},
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"airways": [
+						"M609 BELGU",
+						"M609 TUTBI M609 BELGU",
+						"DCT TUTBI DCT BELGU"
+					],
+					"direction": "EVEN"
 				},
 				{
 					"direction": "EVEN"
 				}
 			],
+			"OSMUM": [
+				{
+					"destinations": [
+						"ENBR"
+					],
+					"airways": [
+						"Z286 LUNUR"
+					],
+					"direction": "EVEN"
+				},
+				{
+					"direction": "EVEN"
+				}
+			],
+			"GOGOX": [
+				{
+					"destinations": [
+						"ENBR"
+					],
+					"airways": [
+						"DCT LUNUR",
+						"Z299 DEKEB DCT INKEV DCT ARNEN DCT NIDGI",
+						"DCT DEKEB DCT INKEV DCT ARNEN DCT NIDGI"
+					],
+					"direction": "EVEN"
+				},
+				{
+					"direction": "EVEN"
+				}
+			]
+		}
+	},
+	{
+		"icao": "ENZV",
+		"sids": {
 			"ODINU": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "ODD",
+					"airways": [
+						"T70 ADOPI",
+						"DCT ADOPI"
+					]
+				},
+				{
+					"direction": "ODD"
+				}
+			],
+			"UPLEV": [
+				{
+					"destinations": [
+						"ENGM"
+					],
+					"direction": "ODD",
+					"airways": [
+						"Z132 OSKOM Z316 RIPAM",
+						"DCT OSKOM DCT RIPAM"
+					]
+				},
+				{
+					"destinations": [
+						"EVRA"
+					],
+					"direction": "ODD",
+					"min_fl": 285
+				},
+				{
+					"destinations": [
+						"EVRA"
+					],
+					"direction": "ODD",
+					"max_fl": 285,
+					"airways": [
+						"VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKET",
+						"VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKLA P156 RASEL"
+					]
+				},
 				{
 					"direction": "ODD"
 				}
@@ -747,31 +1440,35 @@
 					"direction": "ODD"
 				}
 			],
+			"BIVKI": [
+				{
+					"direction": "ODD"
+				}
+			],
 			"RUMOG": [
 				{
-					"airways": [
-						"ATNAK",
-						"LAPOT",
-						"ALOTI"
-					],
 					"direction": "EVEN"
-				},
+				}
+			],
+			"LAPOT": [
 				{
-					"airways": [
-						"BIVKI",
-						"MITSI",
-						"TUKMU",
-						"RIVEX",
-						"PEVEB",
-						"AAL",
-						"ELSOB"
+					"direction": "EVEN"
+				}
+			],
+			"ALUVA": [
+				{
+					"destinations": [
+						"ENBR"
 					],
-					"direction": "ODD"
-				},
+					"direction": "EVEN",
+					"max_fl": 175
+				}
+			],
+			"GEDLU": [
 				{
-					"direction": "ANY"
+					"direction": "EVEN"
 				}
 			]
-		}	
-	}	
+		}
+	}
 ]
