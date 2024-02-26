@@ -2,7 +2,7 @@
 # Forked from https://github.com/beregor/Sid to make improvements and fix bugs:
 - Major overhaul of all SIDs:
 - Sorted airports alphabetically
-- Sorted SIDs with omnidirectional and non-RNAV departures first, then directions clockwise from north, heli SIDS last
+- Sorted SIDs with omnidirectional, non-RNAV departures and Heli departures first, then directions clockwise from north.
 - Added some airports and missing SIDs
 - Updated all mandatory routes and restrictions according to Eurocontrol RAD. Keep in mind they are not all mandatory on Vatsim.
 - ENBR restrcitions fixed with mandatory DCT ZOL after TUXIL unless going to ENCN with DCT PEVEB after TUXIL
