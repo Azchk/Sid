@@ -8,7 +8,7 @@
 - ENBR restrictions fixed with mandatory DCT ZOL after TUXIL unless going to ENCN with DCT PEVEB after TUXIL
 # The main plugin can be downloaded from https://github.com/hpeter2/VFPC
 # Installation:
-# Download and replace the sid.json file inside your plugins folder within EuroScope.
-# If you are using the latest ES, it should be in: "C:\Users\ (username) \AppData\Roaming\EuroScope\ENOR\Plugins"
-# If using older versions it is: "Documents\EuroScope\ENOR\Plugins"
-# After installing use the command .vfpc reload
+- Download and replace the sid.json file inside your plugins folder within EuroScope.
+- If you are using the latest ES, it should be in: "C:\Users\ (username) \AppData\Roaming\EuroScope\ENOR\Plugins"
+- If using older versions it is: "Documents\EuroScope\ENOR\Plugins"
+- After installing use the command .vfpc reload
