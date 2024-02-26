@@ -101,39 +101,6 @@
 					"direction": "ANY"
 				}
 			],
-			"SENEQ": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"ABTAM": [
-				{
-					"destinations": [
-						"ENRS",
-						"ENAN",
-						"ENLK",
-						"ENSK",
-						"ENSH",
-						"ENBO"
-					],
-					"direction": "EVEN"
-				}
-			],
-			"BNN": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"DISMU": [
-				{
-					"direction": "EVEN"
-				}
-			],
-			"EMDAM": [
-				{
-					"direction": "EVEN"
-				}
-			],
 			"IBVIS": [
 				{
 					"destinations": [
@@ -151,14 +118,47 @@
 					"direction": "ODD"
 				}
 			],
+			"PENNO": [
+				{
+					"direction": "ODD"
+				}
+			],
+			"EMDAM": [
+				{
+					"direction": "EVEN"
+				}
+			],
+			"DISMU": [
+				{
+					"direction": "EVEN"
+				}
+			],
 			"STM": [
 				{
 					"direction": "EVEN"
 				}
 			],
-			"PENNO": [
+			"BNN": [
 				{
-					"direction": "ODD"
+					"direction": "EVEN"
+				}
+			],
+			"ABTAM": [
+				{
+					"destinations": [
+						"ENRS",
+						"ENAN",
+						"ENLK",
+						"ENSK",
+						"ENSH",
+						"ENBO"
+					],
+					"direction": "EVEN"
+				}
+			],
+			"SENEQ": [
+				{
+					"direction": "EVEN"
 				}
 			]
 		}
@@ -166,6 +166,11 @@
 	{
 		"icao": "ENBR",
 		"sids": {
+			"ENBR": [
+				{
+					"direction": "ANY"
+				}
+			],
 			"OLDAS": [
 				{
 					"destinations": [
