@@ -2030,6 +2030,15 @@
 				},
 				{
 					"suffix": [
+						"1B"
+					],
+					"direction": "ODD",
+					"engine": [
+						"J"
+					]
+				},
+				{
+					"suffix": [
 						"1X",
 						"1W"
 					],
@@ -2040,19 +2049,19 @@
 					]
 				},
 				{
+					"direction": "ODD"
+				}
+			],
+			"SOLKA": [
+				{
 					"suffix": [
-						"1B"
+						"2B"
 					],
 					"direction": "ODD",
 					"engine": [
 						"J"
 					]
 				},
-				{
-					"direction": "ODD"
-				}
-			],
-			"SOLKA": [
 				{
 					"suffix": [
 						"1W"
@@ -2061,15 +2070,6 @@
 					"engine": [
 						"T",
 						"P"
-					]
-				},
-				{
-					"suffix": [
-						"2B"
-					],
-					"direction": "ODD",
-					"engine": [
-						"J"
 					]
 				},
 				{
@@ -2100,6 +2100,15 @@
 				},
 				{
 					"suffix": [
+						"2B"
+					],
+					"direction": "ODD",
+					"engine": [
+						"J"
+					]
+				},
+				{
+					"suffix": [
 						"1W"
 					],
 					"direction": "ODD",
@@ -2109,13 +2118,7 @@
 					]
 				},
 				{
-					"suffix": [
-						"2B"
-					],
-					"direction": "ODD",
-					"engine": [
-						"J"
-					]
+					"direction": "ODD"
 				}
 			],
 			"UTUNA": [
@@ -2144,21 +2147,21 @@
 				},
 				{
 					"suffix": [
+						"1B"
+					],
+					"direction": "EVEN",
+					"engine": [
+						"J"
+					]
+				},
+				{
+					"suffix": [
 						"1W"
 					],
 					"direction": "EVEN",
 					"engine": [
 						"T",
 						"P"
-					]
-				},
-				{
-					"suffix": [
-						"1B"
-					],
-					"direction": "EVEN",
-					"engine": [
-						"J"
 					]
 				},
 				{
