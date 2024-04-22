@@ -1793,6 +1793,14 @@
 			],
 			"GEDLU": [
 				{
+					"airways": [
+						"EVNAN",
+						"NELSU",
+						"KOSOB"
+					],
+					"direction": "ODD"
+				},
+				{
 					"direction": "EVEN"
 				}
 			],
