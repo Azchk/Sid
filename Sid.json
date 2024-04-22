@@ -2040,6 +2040,15 @@
 					]
 				},
 				{
+					"suffix": [
+						"1B"
+					],
+					"direction": "ODD",
+					"engine": [
+						"J"
+					]
+				},
+				{
 					"direction": "ODD"
 				}
 			],
@@ -2052,6 +2061,15 @@
 					"engine": [
 						"T",
 						"P"
+					]
+				},
+				{
+					"suffix": [
+						"2B"
+					],
+					"direction": "ODD",
+					"engine": [
+						"J"
 					]
 				},
 				{
@@ -2089,6 +2107,15 @@
 						"T",
 						"P"
 					]
+				},
+				{
+					"suffix": [
+						"2B"
+					],
+					"direction": "ODD",
+					"engine": [
+						"J"
+					]
 				}
 			],
 			"UTUNA": [
@@ -2123,6 +2150,15 @@
 					"engine": [
 						"T",
 						"P"
+					]
+				},
+				{
+					"suffix": [
+						"1B"
+					],
+					"direction": "EVEN",
+					"engine": [
+						"J"
 					]
 				},
 				{
