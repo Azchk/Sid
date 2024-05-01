@@ -241,6 +241,9 @@
 						"LS",
 						"LQ"
 					],
+					"direction": "ODD"
+				},
+				{
 					"airways": [
 						"DCT ZOL DCT GREFI",
 						"DCT ZOL DCT AMADA",
