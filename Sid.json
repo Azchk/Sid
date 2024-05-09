@@ -203,8 +203,8 @@
 						"EVRA"
 					],
 					"airways": [
-						"VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKET",
-						"VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKLA P156 RASEL"
+						"DCT VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKET",
+						"DCT VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKLA P156 RASEL"
 					],
 					"direction": "ODD",
 					"max_fl": 285
@@ -231,41 +231,70 @@
 					]
 				},
 				{
-					"destinations": [
-						"ED",
-						"EK",
-						"LD",
-						"LI",
-						"LJ",
-						"LK",
-						"LS",
-						"LQ"
+					"airways": [
+						"DCT ZOL DCT ALOTI",
+						"DCT ZOL DCT NIVUN",
+						"DCT ZOL DCT UNBUD DCT PENUN",
+						"DCT ZOL DCT PENUN",
+						"DCT ZOL DCT ATNAK"
 					],
-					"direction": "ODD"
+					"direction": "EVEN"
+					"max_fl": 255
 				},
 				{
 					"airways": [
-						"DCT ZOL DCT GREFI",
-						"DCT ZOL DCT AMADA",
-						"DCT ZOL DCT MITSI",
-						"DCT ZOL DCT BIVKI",
-						"DCT ZOL DCT RIVEX",
-						"DCT ZOL DCT PEVEB",
-						"DCT ZOL DCT ATTUS"
-					],
-					"direction": "ODD"
-				},
-				{
-					"direction": "EVEN",
-					"airways": [
-						"DCT ZOL T400 ALOTI",
-						"DCT ZOL P5 NIVUN",
 						"DCT ZOL DCT ATNAK",
 						"DCT ZOL DCT KARLI",
 						"DCT ZOL DCT SUTEB",
 						"DCT ZOL DCT DANUM",
 						"DCT ZOL DCT ADUNU"
-					]
+					],
+					"direction": "EVEN"
+					"max_fl": 285
+				},
+				{
+					"airways": [
+						"DCT ZOL T400 ALOTI",
+						"DCT ZOL P5 NIVUN",
+						"DCT ZOL DCT NORSO",
+						"DCT ZOL DCT SUTEB",
+					],
+					"direction": "EVEN"
+					"min_fl": 255
+				},
+				{
+					"airways": [
+						"DCT ZOL DCT NOREM",
+						"DCT ZOL DCT MITSI",
+						"DCT ZOL DCT DANKO",
+						"DCT ZOL DCT LINVI",
+						"DCT ZOL DCT RAMUD",
+						"DCT ZOL DCT AMSEV",
+					],
+					"direction": "ODD"
+					"max_fl": 285
+				},
+				{
+					"airways": [
+						"DCT ZOL P992 LINVI",
+						"DCT ZOL P614 RAMUD",
+						"DCT ZOL L621 AMSEV",
+						"DCT ZOL DCT GREFI",
+						"DCT ZOL DCT AMADA",
+						"DCT ZOL DCT OMIMA",
+						"DCT ZOL DCT DOROR",
+						"DCT ZOL DCT KUGAL",
+						"DCT ZOL DCT TUSKA",
+						"DCT ZOL DCT LUTIR",
+						"DCT ZOL DCT ATTUS",
+						"DCT ZOL DCT DOSUR",
+						"DCT ZOL DCT AMRAK",
+						"DCT ZOL DCT DEMIR",
+						"DCT ZOL DCT ALASA",
+						"DCT ZOL DCT RAXLU",
+					],
+					"direction": "ODD"
+					"min_fl": 285
 				}
 			],
 			"ADADI": [
