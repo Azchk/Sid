@@ -238,7 +238,7 @@
 						"DCT ZOL DCT PENUN",
 						"DCT ZOL DCT ATNAK"
 					],
-					"direction": "EVEN"
+					"direction": "EVEN",
 					"max_fl": 255
 				},
 				{
@@ -249,7 +249,7 @@
 						"DCT ZOL DCT DANUM",
 						"DCT ZOL DCT ADUNU"
 					],
-					"direction": "EVEN"
+					"direction": "EVEN",
 					"max_fl": 285
 				},
 				{
@@ -259,7 +259,7 @@
 						"DCT ZOL DCT NORSO",
 						"DCT ZOL DCT SUTEB",
 					],
-					"direction": "EVEN"
+					"direction": "EVEN",
 					"min_fl": 255
 				},
 				{
@@ -271,7 +271,7 @@
 						"DCT ZOL DCT RAMUD",
 						"DCT ZOL DCT AMSEV",
 					],
-					"direction": "ODD"
+					"direction": "ODD",
 					"max_fl": 285
 				},
 				{
@@ -293,7 +293,7 @@
 						"DCT ZOL DCT ALASA",
 						"DCT ZOL DCT RAXLU",
 					],
-					"direction": "ODD"
+					"direction": "ODD",
 					"min_fl": 285
 				}
 			],
