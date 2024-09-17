@@ -52,14 +52,14 @@
 	{
 		"icao": "ENDU",
 		"sids": {
-			"ENDU": [
-				{
-					"direction": "ANY"
-				}
-			],
 			"AMIMO": [
 				{
 					"direction": "EVEN"
+				}
+			],
+			"ENDU": [
+				{
+					"direction": "ANY"
 				}
 			],
 			"LAVNA": [
@@ -203,8 +203,8 @@
 						"EVRA"
 					],
 					"airways": [
-						"DCT VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKET",
-						"DCT VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKLA P156 RASEL"
+						"VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKET",
+						"VATEX P609 ARGIB Z183 ELTOK P607 TEB N623 NEKLA P156 RASEL"
 					],
 					"direction": "ODD",
 					"max_fl": 285
@@ -231,70 +231,41 @@
 					]
 				},
 				{
-					"airways": [
-						"DCT ZOL DCT ALOTI",
-						"DCT ZOL DCT NIVUN",
-						"DCT ZOL DCT UNBUD DCT PENUN",
-						"DCT ZOL DCT PENUN",
-						"DCT ZOL DCT ATNAK"
+					"destinations": [
+						"ED",
+						"EK",
+						"LD",
+						"LI",
+						"LJ",
+						"LK",
+						"LS",
+						"LQ"
 					],
-					"direction": "EVEN",
-					"max_fl": 255
+					"direction": "ODD"
 				},
 				{
 					"airways": [
-						"DCT ZOL DCT ATNAK",
-						"DCT ZOL DCT KARLI",
-						"DCT ZOL DCT SUTEB",
-						"DCT ZOL DCT DANUM",
-						"DCT ZOL DCT ADUNU"
+						"DCT ZOL DCT GREFI",
+						"DCT ZOL DCT AMADA",
+						"DCT ZOL DCT MITSI",
+						"DCT ZOL DCT BIVKI",
+						"DCT ZOL DCT RIVEX",
+						"DCT ZOL DCT PEVEB",
+						"DCT ZOL DCT ATTUS"
 					],
-					"direction": "EVEN",
-					"max_fl": 285
+					"direction": "ODD"
 				},
 				{
+					"direction": "EVEN",
 					"airways": [
 						"DCT ZOL T400 ALOTI",
 						"DCT ZOL P5 NIVUN",
-						"DCT ZOL DCT NORSO",
+						"DCT ZOL DCT KARLI",
 						"DCT ZOL DCT SUTEB",
-					],
-					"direction": "EVEN",
-					"min_fl": 255
-				},
-				{
-					"airways": [
-						"DCT ZOL DCT NOREM",
-						"DCT ZOL DCT MITSI",
-						"DCT ZOL DCT DANKO",
-						"DCT ZOL DCT LINVI",
-						"DCT ZOL DCT RAMUD",
-						"DCT ZOL DCT AMSEV",
-					],
-					"direction": "ODD",
-					"max_fl": 285
-				},
-				{
-					"airways": [
-						"DCT ZOL P992 LINVI",
-						"DCT ZOL P614 RAMUD",
-						"DCT ZOL L621 AMSEV",
-						"DCT ZOL DCT GREFI",
-						"DCT ZOL DCT AMADA",
-						"DCT ZOL DCT OMIMA",
-						"DCT ZOL DCT DOROR",
-						"DCT ZOL DCT KUGAL",
-						"DCT ZOL DCT TUSKA",
-						"DCT ZOL DCT LUTIR",
-						"DCT ZOL DCT ATTUS",
-						"DCT ZOL DCT DOSUR",
-						"DCT ZOL DCT AMRAK",
-						"DCT ZOL DCT DEMIR",
-						"DCT ZOL DCT ALASA",
-						"DCT ZOL DCT RAXLU",
-					],
-					"direction": "ODD",
-					"min_fl": 285
+						"DCT ZOL DCT DANUM",
+						"DCT ZOL DCT ADUNU",
+						"DCT ZOL DCT ATNAK"
+					]
 				}
 			],
 			"ADADI": [
@@ -311,6 +282,11 @@
 			"ENBO": [
 				{
 					"direction": "ANY"
+				}
+			],
+			"SENEQ": [
+				{
+					"direction": "EVEN"
 				}
 			],
 			"ABTAM": [
@@ -387,11 +363,6 @@
 			"PIKOX": [
 				{
 					"direction": "ODD"
-				}
-			],
-			"SENEQ": [
-				{
-					"direction": "EVEN"
 				}
 			]
 		}
@@ -1465,7 +1436,16 @@
 					]
 				},
 				{
-					"direction": "ODD"
+					"direction": "ODD",
+					"airways": [
+						"M125 LILBA DCT",
+						"M125 LULIL M125 LILBA DCT",
+						"DCT LULIL DCT LILBA DCT",
+						"P850 ROGED DCT",
+						"DCT ROGED DCT",
+						"Z327 XIDMI DCT",
+						"DCT XIDMI DCT"
+					]
 				}
 			],
 			"LUTOT": [
@@ -1475,7 +1455,19 @@
 			],
 			"MOGLU": [
 				{
-					"direction": "ODD"
+					"direction": "ODD",
+					"airways": [
+						"L727 GETPA L727 LATKU L727 NEGIL DCT",
+						"L727 GETPA L996 LATKU L727 NEGIL DCT",
+						"L727 GETPA L727 KORET L727 LATKU L727 NEGIL DCT",
+						"L727 GETPA L996 KORET L996 LATKU L727 NEGIL DCT",
+						"DCT GETPA DCT KORET DCT LATKU DCT NEGIL DCT",
+						"L727 GETPA L727 LATKU L996 KELIN DCT",
+						"L727 GETPA L996 LATKU L996 KELIN DCT",
+						"L727 GETPA L727 KORET L727 LATKU L996 KELIN DCT",
+						"L727 GETPA L996 KORET L996 LATKU L996 KELIN DCT",
+						"DCT GETPA DCT KORET DCT LATKU DCT KELIN DCT"
+					]
 				}
 			],
 			"TITUX": [
@@ -1485,7 +1477,14 @@
 			],
 			"VATEX": [
 				{
-					"direction": "ODD"
+					"direction": "ODD",
+					"airways": [
+						"Z166 NIBNO DCT",
+						"DCT NIBNO DCT",
+						"P609 KSD DCT",
+						"P609 OKSAT P609 KSD DCT",
+						"DCT OKSAT DCT KSD DCT"
+					]
 				}
 			]
 		}
@@ -1558,7 +1557,17 @@
 			],
 			"BOMGU": [
 				{
-					"direction": "ODD"
+					"direction": "ODD",
+					"airways": [
+						"Y440 SABAK DCT",
+						"DCT SABAK DCT",
+						"Z132 LATKU L727 NEGIL DCT",
+						"Z132 XENTA Z132 LATKU L727 NEGIL DCT",
+						"DCT XENTA DCT LATKU DCT NEGIL DCT",
+						"Z132 LATKU L996 KELIN DCT",
+						"Z132 XENTA Z132 LATKU L996 KELIN DCT",
+						"DCT XENTA DCT LATKU DCT KELIN DCT"
+					]
 				}
 			],
 			"ELKOP": [
@@ -1585,13 +1594,16 @@
 					]
 				},
 				{
+					"direction": "ODD",
 					"airways": [
-						"EVTOG"
-					],
-					"direction": "EVEN"
-				},
-				{
-					"direction": "ODD"
+						"M125 LILBA DCT",
+						"M125 LULIL M125 LILBA DCT",
+						"DCT LULIL DCT LILBA DCT",
+						"P850 ROGED DCT",
+						"DCT ROGED DCT",
+						"Z327 XIDMI DCT",
+						"DCT XIDMI DCT"
+					]
 				}
 			],
 			"LUTOT": [
