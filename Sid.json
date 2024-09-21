@@ -746,8 +746,16 @@
 				{
 					"direction": "ODD",
 					"airways": [
+						"DCT ZOL DCT SUTEB",
 						"DCT ZOL DCT GREFI",
 						"DCT ZOL DCT AMADA",
+						"DCT ZOL DCT OMIMA",
+						"DCT ZOL DCT DOROR",
+						"DCT ZOL DCT KUGAL",
+						"DCT ZOL DCT TUSKA",
+						"DCT ZOL DCT LUTIR",
+						"DCT ZOL DCT ATTUS",
+						"DCT ZOL DCT DOSUR",
 						"DCT ZOL DCT MITSI",
 						"DCT ZOL DCT BIVKI",
 						"DCT ZOL DCT RIVEX",
@@ -2731,9 +2739,10 @@
 						"ENBR"
 					],
 					"direction": "EVEN",
-					"min_fl": 100
+					"min_fl": 100,
 					"max_fl": 175
 				},
+				{
 					"destinations": [
 						"ENBR"
 					],
