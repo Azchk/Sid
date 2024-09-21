@@ -755,12 +755,21 @@
 						"DCT ZOL DCT TUSKA",
 						"DCT ZOL DCT LUTIR",
 						"DCT ZOL DCT ATTUS",
-						"DCT ZOL DCT DOSUR",
-						"DCT ZOL DCT MITSI",
+						"DCT ZOL DCT DOSUR"
+					],
+					"min_fl": 285
+				},
+				{
+					"direction": "ODD",
+					"airways": [
+						"DCT ZOL P992 BIVKI",
 						"DCT ZOL DCT BIVKI",
+						"DCT ZOL DCT MITSI",
+						"DCT ZOL DCT DANKO",
+						"DCT ZOL DCT LANTI",
 						"DCT ZOL DCT RIVEX",
 						"DCT ZOL DCT PEVEB",
-						"DCT ZOL DCT ATTUS"
+						"DCT ZOL DCT RASVI"
 					]
 				},
 				{
