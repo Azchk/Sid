@@ -506,17 +506,43 @@
 						"ENDP",
 						"ENFJ"
 					],
-					"direction": "E",
+					"direction": "EVEN",
 					"airways": [
 						"DCT FLS",
 						"DCT TAGUD"
 					]
 				},
 				{
-					"direction": "ANY",
+					"destinations": [
+						"ENHD",
+						"ENHX",
+						"ENSX"
+					],
+					"direction": "ODD",
 					"airways": [
 						"DCT BEGOD"
 					]
+				},
+				{
+					"destinations": [
+						"ENZV"
+					],
+					"direction": "ODD",
+					"airways": [
+						"DCT BEGOD"
+					],
+					"min_fl": 95,
+					"max_fl": 175
+				},
+				{
+					"destinations": [
+						"ENZV"
+					],
+					"direction": "ANY",
+					"airways": [
+						"DCT BEGOD"
+					],
+					"max_fl": 95
 				},
 				{
 					"destinations": [
@@ -762,12 +788,14 @@
 				{
 					"direction": "ODD",
 					"airways": [
-						"DCT ZOL P992 BIVKI",
-						"DCT ZOL DCT BIVKI",
+						"DCT ZOL P992",
+						"DCT ZOL P614",
 						"DCT ZOL DCT MITSI",
+						"DCT ZOL DCT BIVKI",
 						"DCT ZOL DCT DANKO",
 						"DCT ZOL DCT LANTI",
 						"DCT ZOL DCT RIVEX",
+						"DCT ZOL DCT RASVI",
 						"DCT ZOL DCT PEVEB",
 						"DCT ZOL DCT RASVI"
 					]
