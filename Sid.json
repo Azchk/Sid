@@ -2225,7 +2225,14 @@
 			],
 			"VATEX": [
 				{
-					"direction": "ODD"
+					"direction": "ODD",
+					"airways": [
+						"Z166 NIBNO DCT",
+						"DCT NIBNO DCT",
+						"P609 KSD DCT",
+						"P609 OKSAT P609 KSD DCT",
+						"DCT OKSAT DCT KSD DCT"
+					]
 				}
 			],
 			"OTHER": [
